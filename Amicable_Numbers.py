@@ -6,7 +6,7 @@ def factors(num):
     return s
 n=int(input())
 m=int(input())
-if n==factors(m) and m==factors(n):
+if factors(n)==m and factors(m)==n:
     print("Amicable")
 else:
     print("Not Amicable")
